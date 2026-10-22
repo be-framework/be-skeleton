@@ -8,6 +8,11 @@ use Be\App\Reason\Greeting;
 use Ray\Di\Di\Inject;
 use Ray\InputQuery\Attribute\Input;
 
+/**
+ * @psalm-immutable
+ * @psalm-api Entry point resolved by #[Be] attribute reflection in Becoming;
+ *     Psalm cannot see this framework-reflected dispatch.
+ */
 final readonly class Hello
 {
     public string $greeting;

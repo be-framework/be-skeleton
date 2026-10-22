@@ -39,11 +39,6 @@
                 <directory name="src/Final" />
             </errorLevel>
         </PossiblyUnusedMethod>
-        <PossiblyUnusedProperty>
-            <errorLevel type="suppress">
-                <directory name="src/Final" />
-            </errorLevel>
-        </PossiblyUnusedProperty>
         <UnusedParam>
             <errorLevel type="suppress">
                 <directory name="src/Semantic" />

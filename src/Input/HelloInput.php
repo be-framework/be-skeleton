@@ -7,7 +7,11 @@ namespace Be\App\Input;
 use Be\App\Final\Hello;
 use Be\Framework\Attribute\Be;
 
-/** Input for Hello */
+/**
+ * Input for Hello
+ *
+ * @psalm-immutable
+ */
 #[Be([Hello::class])]
 final readonly class HelloInput
 {
