@@ -14,8 +14,8 @@
     },
     "require": {
         "php": "^8.3",
-        "be-framework/be": "dev-semantic-logger-log-format as 0.1.0",
-        "koriym/semantic-logger": "dev-log-format",
+        "be-framework/be": "0.x-dev as 0.1.0",
+        "koriym/semantic-logger": "^0.11",
         "ray/di": "^2.18"
     },
     "require-dev": {
