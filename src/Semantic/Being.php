@@ -18,9 +18,12 @@ use Be\Framework\Attribute\Validate;
  *
  * You may edit this class to add constraints on what types can be assigned to
  * `$being` (for example, restricting it to a specific set of class names).
+ *
+ * @psalm-immutable
  */
 final class Being
 {
+    /** @psalm-capabilities read-props */
     #[Validate]
     public function validate(mixed $being): void
     {

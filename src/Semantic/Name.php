@@ -13,9 +13,14 @@ use function trim;
  * Name
  *
  * @link https://schema.org/name name property
+ *
+ * @psalm-pure
+ * @psalm-api Entry point resolved by SemanticValidator naming convention;
+ *     Psalm cannot see this framework-reflected dispatch.
  */
 final class Name
 {
+    /** @psalm-pure */
     #[Validate]
     public function validate(string $name): void
     {
